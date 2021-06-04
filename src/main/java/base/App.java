@@ -3,6 +3,11 @@ package base;
 import java.util.Scanner;
 
 /*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Ashley Mojica
+ */
+
+/*
 Exercise 4 - Mad Lib
 
 Mad libs are a simple game where you create a story template with blanks for words. You, or another

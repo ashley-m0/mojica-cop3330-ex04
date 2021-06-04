@@ -33,7 +33,13 @@ public class App
     static Scanner input = new Scanner(System.in);
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        App myApp = new App();
+        String noun = myApp.getNoun();
+        String verb = myApp.getVerb();
+        String adj = myApp.getAdjective();
+        String adv = myApp.getAdverb();
+        String message = myApp.generateMessage(noun, verb, adj, adv);
+        System.out.println(message);
     }
 
     public String getNoun(){
@@ -61,6 +67,6 @@ public class App
     }
 
     public String generateMessage(String noun, String verb, String adj, String adv){
-        return "Do you walk your " + ""
+        return String.format("Do you %s your %s %s %s? That's hilarious!", verb, adj, noun, adv);
     }
 }

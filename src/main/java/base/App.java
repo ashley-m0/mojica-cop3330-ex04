@@ -43,25 +43,25 @@ public class App
     }
 
     public String getNoun(){
-        System.out.println( "Enter a noun:" );
+        System.out.print( "Enter a noun: " );
         String noun = input.nextLine();
         return noun;
     }
 
     public String getVerb(){
-        System.out.println( "Enter a verb:" );
+        System.out.print( "Enter a verb: " );
         String verb = input.nextLine();
         return verb;
     }
 
     public String getAdjective(){
-        System.out.println( "Enter a adjective:" );
+        System.out.print( "Enter a adjective: " );
         String adjective = input.nextLine();
         return adjective;
     }
 
     public String getAdverb(){
-        System.out.println( "Enter a adverb:" );
+        System.out.print( "Enter a adverb: " );
         String adverb = input.nextLine();
         return adverb;
     }
